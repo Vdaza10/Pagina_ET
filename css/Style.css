@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background: rgb(27, 152, 202) ;
+   /* background: -moz-linear-gradient(rgb(155, 77, 207) 0% black 100%);*/
+    width: 100%;
+    height: 55px;
+    clear: both;
+    content:'';
+    display: table;
+    
+}
+.menu{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.log{
+    float: left; 
+    padding: 20px;
+    
+}
+nav{
+    float: right;
+}
+nav ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    margin-left: 20px;
+    padding: 40px 0;
+    float: left;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(245, 237, 237);
+    font-weight:bold ;
+}
+
+
+nav ul li a::after{
+    display: block;
+    width: 100%;
+}
+nav ul il a:hover{
+    color:black
+}
+.imag{
+    padding: 10px;
+    margin-left: 240px;
+}
+.imag{
+    width:600px ;
+    float: left;
+}
+.parrafo{
+    background:  white;
+    width: 420px; 
+    height:180px;
+    margin-left: 10px;
+    margin-top: 70px;
+    float: left;
+    padding: 15px; 
+    font-family: calibri; 
+    text-align: justify; 
+}
+.titulo{
+    text-align: center;
+    font-family:  Courier, 
+}
+.subtitulo{
+    margin-top: 7px;
+    font-family: Geneva, Tahoma, sans-serif;
+    text-align: justify;
+
+}
+.registrar{
+    text-decoration: none;
+    text-align: center;
+    color:azure;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    bottom: 50px;
+    background-color: rgb(38, 162, 219);
+    border-radius: 2px;
+}
+.caja1{
+    margin-top: 320px;
+    margin-left: 100px;
+    margin-right: 100px;
+    border: solid 1px rgb(176, 238, 230);
+    box-shadow: 0 0 20px rgb(169, 172, 171);
+    padding: 10px;
+    border-radius: 3px;
+}
+.titulo2{
+    text-align: center;
+}
+.texto{
+    text-align: center;
+}
+
+table{
+    text-align: justify;
+    padding: 40px;
+    margin-left: 250px;
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgb(169, 172, 171);
+    background: linear-gradient(to bottom right, rgb(62, 65, 207),rgb(74,228,220));
+}
+.mision{
+    text-align: center;
+}
+.tabla{
+    text-align: justify;
+    padding: 40px;
+    margin-left: 850px;
+    margin-top: 10px;
+    box-shadow: 0 0 20px rgb(169, 172, 171);
+    background: linear-gradient(to bottom right, rgb(74, 228, 220), rgb(62, 65, 207));
+
+}
+footer{
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+    border: solid 1px rgb(207, 205, 205);
+    background:  rgb(27, 152, 202) ;
+    color: white;
+}
